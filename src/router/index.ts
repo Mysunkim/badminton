@@ -6,11 +6,11 @@ import ContactUs from '../views/ContactUs/ContactUs.vue';
 import ClubEvent from '../views/ClubEvent/ClubEvent.vue'; 
 
 const routes = [
-  { path: '/', component: MainHomePage },
-  { path: '/UserLogin', component: UserLogin },
-  { path: '/GalleryActive', component: GalleryActive },
-  { path: '/ContactUs', component: ContactUs },
-  { path: '/ClubEvent', component: ClubEvent },
+  { path: '/', component: MainHomePage, name: 'MainHomePage' },
+  { path: '/UserLogin', component: UserLogin, name: 'UserLogin' },
+  { path: '/GalleryActive', component: GalleryActive, name: 'GalleryActive' },
+  { path: '/ContactUs', component: ContactUs, name: 'ContactUs' },
+  { path: '/ClubEvent', component: ClubEvent, name: 'ClubEvent' },
 ];
 
 const router = createRouter({
