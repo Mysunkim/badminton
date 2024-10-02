@@ -1,26 +1,29 @@
 <template>
- <v-container>
+  <v-container>
     <v-form>
-      <v-text-field label="Email" />
+      <v-text-field label="id" />
       <v-text-field label="Password" type="password" />
-      <v-btn color="primary">Login</v-btn>
+      <v-btn color="primary" @click="loginHandler">Login</v-btn>
     </v-form>
   </v-container>
-  </template>
-  
-  <script lang="ts">
-  import { defineComponent } from 'vue';
-  
-  export default defineComponent({
-    name: 'UserLogin',
-    props: {
-      msg: String,
-    },
-  });
-  </script>
-  
-  <!-- Add "scoped" attribute to limit CSS to this component only -->
-  <style scoped>
+</template>
 
-  </style>
-  
+<script setup lang="ts">
+import { ref } from 'vue';
+import { useRouter } from 'vue-router';
+const isLogin = ref(false);
+const router = useRouter();
+const loginHandler = () => {
+  isLogin.value = true;
+  alert('success');
+
+  if (isLogin.value) {
+    router.push({ name: 'MainHomePage' }); // Adjust the route name as needed
+  }
+}
+
+
+</script>
+
+<style scoped>
+</style>
