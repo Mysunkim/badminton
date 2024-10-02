@@ -1898,6 +1898,11 @@
     find-cache-dir "^3.3.2"
     upath "^2.0.1"
 
+"@vuetify/nightly@^3.3.0-next.2023-05-20":
+  version "3.3.0-next.2023-05-20"
+  resolved "https://registry.yarnpkg.com/@vuetify/nightly/-/nightly-3.3.0-next.2023-05-20.tgz#542ec8003bb28364fbe2a37fe40ca2f65e7b6602"
+  integrity sha512-r4hvXNexzdkrvNHE08r2325IdEnOWp5N7LTSJ57xAG2WpR2PyVArb/OkUKd2UOpT4XNrdC5h3FWBRr1LnhhwZA==
+
 "@webassemblyjs/ast@1.12.1", "@webassemblyjs/ast@^1.12.1":
   version "1.12.1"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.12.1.tgz#bb16a0e8b1914f979f45864c23819cc3e3f0d4bb"
@@ -6465,10 +6470,10 @@ vue@^3.2.13:
     "@vue/server-renderer" "3.5.10"
     "@vue/shared" "3.5.10"
 
-"vuetify@npm:@vuetify/nightly@next":
-  version "3.3.0-next.2023-05-20"
-  resolved "https://registry.yarnpkg.com/@vuetify/nightly/-/nightly-3.3.0-next.2023-05-20.tgz#542ec8003bb28364fbe2a37fe40ca2f65e7b6602"
-  integrity sha512-r4hvXNexzdkrvNHE08r2325IdEnOWp5N7LTSJ57xAG2WpR2PyVArb/OkUKd2UOpT4XNrdC5h3FWBRr1LnhhwZA==
+vuetify@^3.7.2:
+  version "3.7.2"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.7.2.tgz#e37fa4c191ea00144de5943315cbf77ddb80448d"
+  integrity sha512-q0WTcRG977+a9Dqhb8TOaPm+Xmvj0oVhnBJhAdHWFSov3HhHTTxlH2nXP/GBTXZuuMHDbBeIWFuUR2/1Fx0PPw==
 
 watchpack@^2.4.0, watchpack@^2.4.1:
   version "2.4.2"

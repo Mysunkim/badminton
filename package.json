@@ -10,11 +10,12 @@
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",
+    "@vuetify/nightly": "^3.3.0-next.2023-05-20",
     "core-js": "^3.8.3",
     "roboto-fontface": "*",
     "vue": "^3.2.13",
     "vue-router": "^4.4.5",
-    "vuetify": "npm:@vuetify/nightly@next",
+    "vuetify": "^3.7.2",
     "webfontloader": "^1.0.0",
     "webpack": "^5.95.0"
   },
